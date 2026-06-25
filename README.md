@@ -2,6 +2,8 @@
 
 一个轻量、美观的 AI 伴侣聊天应用，基于纯前端技术构建，无需后端即可运行。支持自定义 AI 角色、多轮对话、心情记录、呼吸练习等陪伴功能。
 
+项目地址：https://github.com/guodingkai/AI-Companion
+
 ## 功能特性
 
 - **AI 对话**：支持配置任意兼容 OpenAI 格式的 API（Base URL、API Key、模型），实现连续多轮聊天
