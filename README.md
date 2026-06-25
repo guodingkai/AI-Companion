@@ -1,57 +1,82 @@
-# AI Companion
+<div align="center">
 
-一个轻量、美观的 AI 伴侣聊天应用，基于纯前端技术构建，无需后端即可运行。支持自定义 AI 角色、多轮对话、心情记录、呼吸练习等陪伴功能。
+# 🤖 AI Companion
 
-项目地址：https://github.com/guodingkai/AI-Companion
+一个轻量、美观、可自定义的 AI 伴侣聊天应用
 
-## 功能特性
+<p>
+  <a href="https://github.com/guodingkai/AI-Companion/stargazers"><img src="https://img.shields.io/github/stars/guodingkai/AI-Companion?style=flat-square&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/guodingkai/AI-Companion/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/badge/Platform-Web%20%7C%20Android-brightgreen?style=flat-square" alt="Platform">
+  <img src="https://img.shields.io/badge/Tech-HTML%20%7C%20CSS%20%7C%20JS-orange?style=flat-square" alt="Tech">
+</p>
 
-- **AI 对话**：支持配置任意兼容 OpenAI 格式的 API（Base URL、API Key、模型），实现连续多轮聊天
-- **角色系统**：创建并切换多个 AI 伴侣角色，自定义名称、头像、系统提示词与温度参数
-- **记忆管理**：查看、编辑、删除当前对话的历史消息，控制上下文长度
-- **心情记录**：每日记录心情状态，查看历史心情趋势与平均值
-- **呼吸练习**：内置 4-7-8 助眠、箱式、舒缓三种呼吸模式
-- **快捷模板**：一键填充常用对话开场白
-- **图片发送**：支持以 base64 形式发送图片消息
-- **主题切换**：深色 / 浅色双主题，自适应系统偏好
-- **聊天背景**：多种背景预设，自定义聊天氛围
-- **数据统计**：对话数、消息数、Token 用量等可视化统计
-- **内容过滤**：可选敏感词过滤，净化对话内容
-- **本地存储**：所有数据保存在浏览器 localStorage，无需服务器
+[项目主页](https://github.com/guodingkai/AI-Companion) · [下载 APK](https://github.com/guodingkai/AI-Companion/releases)
 
-## 文件说明
+</div>
 
-| 文件 | 说明 |
+---
+
+## ✨ 功能亮点
+
+| 功能 | 说明 |
 |------|------|
-| `index.html` | 应用完整源码，浏览器直接打开即可使用 |
-| `AICompanion.apk` | Android 安装包，可在安卓设备上安装运行 |
+| 💬 AI 对话 | 支持任意兼容 OpenAI 格式的 API，连续多轮自然聊天 |
+| 🎭 角色系统 | 创建多个 AI 伴侣角色，自定义头像、名称、系统提示词 |
+| 🧠 记忆管理 | 查看、编辑、删除对话历史，灵活控制上下文长度 |
+| 😊 心情记录 | 记录每日心情，追踪情绪变化趋势 |
+| 🌬️ 呼吸练习 | 内置 4-7-8 助眠、箱式、舒缓三种呼吸模式 |
+| 🚀 快捷模板 | 常用对话开场白一键填充 |
+| 🖼️ 图片发送 | 支持 base64 图片消息 |
+| 🌓 主题切换 | 深色 / 浅色双主题，适配不同使用场景 |
+| 🎨 背景预设 | 多种聊天背景，随心切换氛围 |
+| 📊 数据统计 | 对话数、消息数、Token 用量一目了然 |
+| 🔒 本地存储 | 数据仅保存在浏览器 localStorage，隐私安全 |
 
-## 使用方法
+## 📸 界面预览
+
+> 截图占位，欢迎替换为实际应用截图
+
+```
+[主界面截图]  [侧边栏截图]  [设置截图]
+```
+
+## 🚀 快速开始
 
 ### 网页版
 
-1. 使用现代浏览器（Chrome / Edge / Safari）打开 `index.html`
-2. 点击右下角设置，填写你的 API Base URL、API Key 和模型名称
-3. 开始与 AI 伴侣对话
+1. 使用 Chrome / Edge / Safari 打开 `index.html`
+2. 点击右下角设置图标
+3. 填写 API Base URL、API Key 和模型名称
+4. 开始与 AI 伴侣对话
 
 ### Android 版
 
-1. 将 `AICompanion.apk` 传输到安卓设备
-2. 允许安装来自未知来源的应用
-3. 安装后打开并配置 API 即可使用
+1. 下载 `AICompanion.apk`
+2. 在安卓设备上允许安装未知来源应用
+3. 安装后打开并配置 API
 
-## 技术栈
+## 📁 项目结构
 
-- HTML5
-- CSS3（CSS Variables、Flexbox、Backdrop Filter、Animation）
-- 原生 JavaScript（无框架依赖）
+```
+AI-Companion/
+├── index.html        # 应用完整源码
+├── AICompanion.apk   # Android 安装包
+└── README.md         # 项目说明
+```
 
-## 注意事项
+## 🛠️ 技术栈
 
-- 本应用为纯前端实现，API Key 仅存储在本地浏览器中，不会上传至任何第三方服务器
-- 建议在可信设备上使用，并妥善保管 API Key
+- **HTML5** — 语义化页面结构
+- **CSS3** — CSS 变量、弹性布局、毛玻璃效果、动画
+- **原生 JavaScript** — 无框架依赖，单文件即可运行
+
+## ⚠️ 注意事项
+
+- 本应用为纯前端实现，API Key 仅存储在本地浏览器
+- 请在可信设备上使用，妥善保管 API Key
 - 首次使用需自行准备兼容 OpenAI 格式的 API 服务
 
-## 开源协议
+## 📄 开源协议
 
-MIT License
+[MIT License](LICENSE)
